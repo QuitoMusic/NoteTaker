@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"title":"Test Title","text":"Test text"},{"product":"watch","id":"b7e0518b-9174-4a84-b54c-1ab1014a3514"},{"product":"watch","id":"c189e1d9-76e2-4d75-aca1-24d0fa451af3"},{"product":"watch","id":"6dd32ed3-2700-47c1-92b5-a7e8da19fb15"},{"product":"watch","id":"94b6eb97-cf2e-4b68-9986-8f50f6d905a2"},{"id":"27db8f81-f2b6-4a01-a7ec-012c7f05e224"},{"id":"8b1610eb-b354-493b-911b-2140e2c5a90a"},{"id":"fa0c69cd-47dd-4b52-bbf9-8a1af49c51e5"},{"id":"41c26db1-b553-4c80-bedd-52b976ca77e6"},{"id":"b2ff6fbd-31da-4bc6-b02a-f0c947e4a37c"},{"id":"102ff08f-4557-466a-8a7d-87d50ef9e04a"},{"product":"watch","id":"e9fb847d-7497-41a6-90d7-49d1586f5e9e"},{"product":"watch","id":"d9b633dc-d7fd-4689-98a1-6a17aca77def"},{"product":"watch","id":"a13a7b72-6a9f-4568-9f9c-f9612fb0d2dc"},{"product":"watch","id":"7af3ea8a-a137-47a3-bba5-7bb3fa34f396"},{"product":"watch","id":"b09b9fc1-085f-413c-94be-644d2c89c073"},{"product":"watch","id":"43b6f1f8-3729-4fab-98b7-6a48c8500203"},{"product":"watch","id":"9ca76ba2-6414-4f06-b42a-1029a9d8d35e"},{"product":"watch","id":"66969392-8567-4f54-bf70-a2a994103c5e"},{"product":"watch","id":"4da85e6e-6eb5-432d-893b-d88f6b66c209"},{"product":"watch","id":"b5ab2eb3-914b-454e-8017-55fa5847ec02"}]
