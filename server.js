@@ -25,7 +25,7 @@ app.get('/api/notes', (req, res) => {
   res.json(notes);
 });
 
-//save notes
+//save notes and create unique id
 app.post('/api/notes', (req, res) => {
   const newNote = req.body;
   newNote.id = uuidv4();
@@ -38,32 +38,6 @@ app.delete('/api/notes/:id', (req, res) => {
   const id = req.params.id;
   notes = notes.filter((note) => note.id !== id);
   res.json({ message: 'Note deleted' });
-});
-
-//Creates new id per note saved
-app.get('/api/uuids', (req, res) => {
-  const uuidList = Array.from({ length: 10 }, () => uuidv4());
-  const filePath = path.join(__dirname, 'uuids.txt');
-  const fileData = uuidList.join('\n');
-  
-  fs.writeFile(filePath, fileData, (err) => {
-    if (err) {
-      console.error('Failed to write UUIDs to file:', err);
-      res.status(500).json({ message: 'Failed to generate and download UUIDs' });
-    } else {
-      res.download(filePath, 'uuids.txt', (err) => {
-        if (err) {
-          console.error('Failed to download UUIDs:', err);
-          res.status(500).json({ message: 'Failed to generate and download UUIDs' });
-        }
-        fs.unlink(filePath, (err) => {
-          if (err) {
-            console.error('Failed to delete temporary file:', err);
-          }
-        });
-      });
-    }
-  });
 });
 
 // Start the server
