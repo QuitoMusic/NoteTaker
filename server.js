@@ -25,6 +25,20 @@ app.get('/api/notes', (req, res) => {
   res.json(notes);
 });
 
+//save notes
+app.post('/api/notes', (req, res) => {
+  const newNote = req.body;
+  newNote.id = uuidv4();
+  notes.push(newNote);
+  res.json(newNote);
+});
+
+//Delete notes
+app.delete('/api/notes/:id', (req, res) => {
+  const id = req.params.id;
+  notes = notes.filter((note) => note.id !== id);
+  res.json({ message: 'Note deleted' });
+});
 
 //Creates new id per note saved
 app.get('/api/uuids', (req, res) => {
