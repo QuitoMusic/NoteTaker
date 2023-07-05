@@ -42,6 +42,18 @@ d. Verify note has been added as "Undefined":
 
 If you would like to contribute as a developer, you can submit a pull request. Before starting any substantial work, it's recommended to open an issue to discuss your proposed changes with the lead developer.
 
+## Resources
+
+1. Express.js: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+2. JSON Introduction: https://www.w3schools.com/js/js_json_intro.asp
+3. UUID: https://www.tutorialspoint.com/how-to-create-guid-uuid-in-javascript
+4. Fetch API: https://www.w3schools.com/js/js_api_fetch.asp
+5. Deploy Heroku: https://www.youtube.com/watch?v=DQk3zJlY-eE
+6. NoteTaker App Explained: https://www.youtube.com/watch?v=wiFW3gQgfd8
+7. POST: https://www.geeksforgeeks.org/how-to-post-json-data-to-server/
+8. ANother Fetch API method: https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example 
+9. Delete data JSON: https://stackoverflow.com/questions/29653430/how-to-send-delete-request-to-server-with-json-data-using-angularjs
+
 ## Tests
 
 No tests were performed for this app.
